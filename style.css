@@ -1,0 +1,176 @@
+body {
+  background-image: url("../pics/Backgorund.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: arial, sans-serif;
+  font-size: 14pt;
+}
+
+header {
+  position: relative;
+  left: 657px;
+  width: 200px;
+  text-align: center;
+background-color: beige;
+border: 1px solid black;
+}
+
+.heading {
+  background-color: beige;
+  width: 130px;
+  margin-top: 30px;
+  position: relative;
+  left: 700px;
+}
+
+.menu {
+margin-top: 30px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+text-align: center;
+<!-- The code above is used to pull elements from the default flow of the webpage and position them for example side by side. -->
+}
+.Home {
+  text-align: center;
+font-size: 12pt;
+background-color: beige;
+position: relative;
+left: 350px;
+width: 50px;
+padding: 10px;
+border: 1px solid black;
+<!-- This piece of code, as well as other like it, is responsible for the styling of the elements it is assigned to through
+the use of the class attribute. -->
+}
+
+.Cast {
+    text-align: center;
+font-size: 12pt;
+background-color: beige;
+position: relative;
+right: 330px;
+width: 50px;
+padding: 10px;
+border: 1px solid black;
+}
+.Synopsis {
+position: relative;
+left: 250px;
+  text-align: center;
+  background-color: beige;
+width: 70%;
+margin-top: 30px;
+padding: 5px;
+
+}
+
+.heading1{
+  text-align: center;
+  border: 1px solid black;
+  background-color: beige;
+  width: 270px;
+  position: relative;
+  left: 300px
+}
+.image1 {
+
+  width: 250px;
+  height: 344px;
+  float:right;
+  position: relative;
+  right: 300px;
+  margin-top: 20px;
+}
+.actor1text {
+width: 500px;
+background-color: beige;
+padding: 5px;
+border: 2px black solid;
+position: relative;
+left: 300px;
+}
+
+
+.heading2 {
+  text-align: center;
+  border: 1px solid black;
+  background-color: beige;
+  width: 300px;
+  position: relative;
+  left: 300px
+
+}
+.image2 {
+  width: 250px;
+  height: 344px;
+  float:right;
+  position: relative;
+  right: 300px;
+
+}
+.actor2text {
+  width: 500px;
+  background-color: beige;
+  padding: 5px;
+  border: 2px black solid;
+  position: relative;
+  left: 300px
+}
+audio {
+  margin-top: 50px;
+  position: relative;
+  left: 300px;
+  <!-- The code above is used by the webpage to position the audio element as well as spacing it around other element on the webpage. -->
+}
+
+video {
+  margin-top: 50px;
+  position: relative;
+  left: 150px;
+}
+.heading3 {
+  text-align: center;
+  border: 1px solid black;
+  background-color: beige;
+  width: 150px;
+  position: relative;
+  left: 300px
+}
+.image3 {
+  width: 250px;
+  height: 344px;
+  float:right;
+  position: relative;
+  right: 300px;
+}
+.actor3text {
+  width: 500px;
+  background-color: beige;
+  padding: 5px;
+  border: 2px black solid;
+  position: relative;
+  left: 300px
+}
+.Home {
+
+}
+section::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+section {
+  margin-top: 50px;
+}
+footer {
+  background-color: beige;
+}
+.extras {
+  text-align: center;
+  background-color: beige;
+  width: 600px;
+  position: relative;
+  left: 480px;
+}
